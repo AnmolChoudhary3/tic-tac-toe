@@ -50,7 +50,6 @@ function App() {
     };
 
     const winner = calculateWinner(squares);
-    console.log(isX);
 
     useEffect(() => {
         if (winner) setStatus("Play Again!");
